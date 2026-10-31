@@ -1,0 +1,22 @@
+# Normalize source text across Windows and other systems.
+* text=auto eol=lf
+*.py text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.csv text eol=lf
+*.arb text eol=lf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.png binary
+*.jpg binary
+*.woff2 binary
+*.zip binary
+# Preserve reviewed input hashes and exact Flutter-validated delivery bytes.
+competition/** -text whitespace=cr-at-eol
